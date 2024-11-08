@@ -34,7 +34,7 @@ Feature: To test the get end point of the application
     And print response
     And match response !=
     """
-    [{"jobId":1,"jobTitle":"Software Engg","jobDescription":"To develop andriod application","experience":["Google","Apple","Mobile Iron"],"project":[{"projectName":"Movie App","technology":["Kotlin","SQL Lite","Gradle"]}]}]
+      [{"jobId":1,"jobTitle":"Software Engg","jobDescription":"To develop andriod application","experience":["Google","Apple","Mobile Iron"],"project":[{"projectName":"Movie App","technology":["Kotlin","SQL Lite","Gradle"]}]}]
 
     """
 
@@ -49,3 +49,4 @@ Feature: To test the get end point of the application
     #afirmacion de encabezado
     And match header Content-Type == 'application/json'
     And match header Connection == 'keep-alive'
+
