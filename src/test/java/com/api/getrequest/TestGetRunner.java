@@ -1,4 +1,4 @@
-package com.api.automation.getrequest;
+package com.api.getrequest;
 
 import com.intuit.karate.junit5.Karate;
 import com.intuit.karate.junit5.Karate.Test;
